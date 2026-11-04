@@ -1,0 +1,47 @@
+# --- uv specific ---
+.venv/
+.uv/
+dist/
+wheels/
+*.egg-info/
+
+
+# --- Python standard ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+share/python-wheels/
+.manifest
+*.manifest
+*.spec
+
+
+# --- Environment variables & Secrets ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+# --- IDEs and Tools ---
+.idea/
+.vscode/
+.project
+.pydevproject
+.settings/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
