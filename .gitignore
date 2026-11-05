@@ -1,9 +1,11 @@
 # --- uv specific ---
 .venv/
 .uv/
+__pypackages__/
 dist/
 wheels/
 *.egg-info/
+pip-wheel-metadata/
 
 
 # --- Python standard ---
@@ -28,7 +30,8 @@ share/python-wheels/
 
 # --- Environment variables & Secrets ---
 .env
-.venv
+.env.*
+!.env.example
 env/
 venv/
 ENV/
@@ -45,3 +48,8 @@ venv.bak/
 .mypy_cache/
 .pytest_cache/
 .ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
